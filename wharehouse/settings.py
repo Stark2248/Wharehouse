@@ -80,6 +80,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    'wharehpuse': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'wharehouse',
+        'USER': 'root',
+        'PASSWORD': '12345',
+        'HOST':'localhost',
+        'PORT':'3306',
     }
 }
 
